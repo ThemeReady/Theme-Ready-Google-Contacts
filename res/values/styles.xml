@@ -218,7 +218,7 @@
         <item name="android:colorBackgroundCacheHint">@null</item>
         <item name="android:actionBarItemBackground">@drawable/item_background_material_borderless_dark</item>
     </style>
-    <style name="PeopleTheme" parent="@android:style/Theme.Material.Light">
+    <style name="PeopleTheme" parent="@style/PeopleTheme1">
         <item name="android:icon">@android:color/transparent</item>
         <item name="android:textColorPrimary">@color/primary_text_color</item>
         <item name="android:textColorSecondary">@color/secondary_text_color</item>
@@ -256,6 +256,8 @@
         <item name="list_item_header_text_color">@color/people_app_theme_color</item>
         <item name="list_item_header_text_size">14.0sp</item>
         <item name="list_item_header_height">30.0dip</item>
+        <item name="list_item_name_text_color">@color/list_item_name_text_color</item>
+        <item name="list_item_name_text_size">16.0sp</item>
         <item name="list_item_text_indent">@dimen/contact_browser_list_item_text_indent</item>
         <item name="list_item_data_width_weight">5</item>
         <item name="list_item_label_width_weight">3</item>
@@ -417,5 +419,10 @@
         <item name="android:tint">@color/editor_icon_color</item>
         <item name="android:layout_marginStart">16.0dip</item>
         <item name="android:layout_marginEnd">28.0dip</item>
+    </style>
+    <style name="PeopleTheme1" parent="@android:style/Theme.Material.Light">
+        <item name="android:colorPrimary">@color/primary_color</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_dark</item>
+        <item name="android:colorAccent">@color/primary_color</item>
     </style>
 </resources>
